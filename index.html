@@ -1,0 +1,293 @@
+<html>
+    <head>
+        <title>Nutrient Calculator</title>
+         <meta name="viewposr" content="width=device-width,initial-scale=1">
+		  <link rel ="stylesheet" href="print.css">
+        <link rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+        
+    
+    <style>
+        div #header{
+            font-family: cursive;
+            font-size: 3em;
+            align-content: center;
+                
+}
+        div #img{
+            margin-left: 40%;
+            margin-right: 50%;
+        }
+        
+        
+        table{
+            margin-left: 25%;
+            margin-top: 1%;
+        }
+        
+        table tr,th,input{
+            border: 1px solid white;
+       
+            margin-left: -5%;
+           
+           
+            
+        }
+       
+        
+    </style>
+        
+     
+    </head>
+    <body>
+        <div id="img">
+       <img src="img/image2.jpg" height="400px" width="1500px" >
+           
+        </div>
+        <div id="header">
+            <center> <h1 style="font-size: 25px">Nutrition is the only remedy that can bring full recovery and can be used with any treatment.<br> Remember, food is our best medicine!     
+
+
+                </h1></center>        </div>
+        <div id="img1">
+        <img src="img/inggg1.jpg" height="150px" width="200px" style="margin-left: 26%; ">
+             <p style="margin-left: 26%;color: black; font-display: block;">1: Enter the name of recipe</p>
+        </div>
+        <div id="img2">
+        <img src="img/ingg2.jpg" height="150px" width="200px" style="margin-left: 43%; margin-top: -13.4%;">
+            <p style="margin-left: 43%; margin-top: -2.3%;color: black; font-display: block;">2: Enter the name of Ingreients</p>
+        </div>
+        <div id="img3">
+        <img src="img/ingg3.jpg" height="150px" width="200px" style="margin-left: 60%; margin-top: -14.5%;">
+            <p style="margin-left:  60%; margin-top: -3.4%;color: black; font-display: block;" >3: Enter the number of servings</p>
+        </div>
+       
+  <table  width="50%" cellpadding="3" cellspacing="0">
+     
+      <tr bgcolor="gray" > <th><p style="margin-left: -53%;font-size: 120%; margin-top: 5%">Enter Recipe Name(Optional):</p><input type="text"  style="margin-left: -2%; margin-top: -1%"input id="name" size="95" maxlength=200>
+               <br><p style="margin-left: -59%; font-size: 120%;">Enter Recipe Ingredients</p>
+               <table id="tblProducts" style="margin-left: 6.5%">
+                   <thead>
+    <tr>
+    <td style="font-family: serif;font-display: block;font-size: 16px;color: black">Ingredient</td>
+    <td style="font-family: serif;font-display: block;font-size: 16px;color: black" >Serving</td>
+    <td style="font-family: serif;font-display: block;font-size: 16px;color: black">Calories(per 100 grams)</td>
+    <td style="font-family: serif;font-display: block;font-size: 16px;color: black">Sub-Total</td>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+    <td><input type="text" class="pnm" value="Potatoes(boiled)" name="pnm" /></td>
+    <td><input type="text" class="qty" value="" name="qty"/></td>
+    <td><input type="text" class="price" value="70" name="price"/></td>
+    <td><input type="text" class="subtot" value="0" name="subtot"/></td>
+    </tr>
+       <tr> <td><input type="text" class="pnm" value="Potatoes(roast)" name="pnm" /></td>
+    <td><input type="text" class="qty" value="" name="qty"/></td>
+    <td><input type="text" class="price" value="140" name="price"/></td>
+    <td><input type="text" class="subtot" value="0" name="subtot"/></td>
+    </tr>
+    <tr> <td><input type="text" class="pnm" value="Rice(boiled)" name="pnm" /></td>
+    <td><input type="text" class="qty" value="" name="qty"/></td>
+    <td><input type="text" class="price" value="140" name="price"/></td>
+    <td><input type="text" class="subtot" value="0" name="subtot"/></td>
+    </tr>
+    <tr> <td><input type="text" class="pnm" value="Rice(brown)" name="pnm" /></td>
+    <td><input type="text" class="qty" value="" name="qty"/></td>
+    <td><input type="text" class="price" value="135" name="price"/></td>
+    <td><input type="text" class="subtot" value="0" name="subtot"/></td>
+    </tr>
+    <tr> <td><input type="text" class="pnm" value="Apple" name="pnm" /></td>
+    <td><input type="text" class="qty" value="" name="qty"/></td>
+    <td><input type="text" class="price" value="44" name="price"/></td>
+    <td><input type="text" class="subtot" value="0" name="subtot"/></td>
+    </tr>
+    <tr> <td><input type="text" class="pnm" value="Banana" name="pnm" /></td>
+    <td><input type="text" class="qty" value="" name="qty"/></td>
+    <td><input type="text" class="price" value="65" name="price"/></td>
+    <td><input type="text" class="subtot" value="0" name="subtot"/></td>
+    </tr>
+    <tr> <td><input type="text" class="pnm" value="Beans baked beans" name="pnm" /></td>
+    <td><input type="text" class="qty" value="" name="qty"/></td>
+    <td><input type="text" class="price" value="80" name="price"/></td>
+    <td><input type="text" class="subtot" value="0" name="subtot"/></td>
+    </tr>
+    <tr> <td><input type="text" class="pnm" value="Blackberries" name="pnm" /></td>
+    <td><input type="text" class="qty" value="" name="qty"/></td>
+    <td><input type="text" class="price" value="25" name="price"/></td>
+    <td><input type="text" class="subtot" value="0" name="subtot"/></td>
+    </tr>
+    <tr> <td><input type="text" class="pnm" value="Blackcurrant " name="pnm" /></td>
+    <td><input type="text" class="qty" value="" name="qty"/></td>
+    <td><input type="text" class="price" value="30" name="price"/></td>
+    <td><input type="text" class="subtot" value="0" name="subtot"/></td>
+    </tr>
+    <tr> <td><input type="text" class="pnm" value="Brocoli" name="pnm" /></td>
+    <td><input type="text" class="qty" value="" name="qty"/></td>
+    <td><input type="text" class="price" value="32" name="price"/></td>
+    <td><input type="text" class="subtot" value="0" name="subtot"/></td>
+    </tr>
+    <tr> <td><input type="text" class="pnm" value="Cabbage" name="pnm" /></td>
+    <td><input type="text" class="qty" value="" name="qty"/></td>
+    <td><input type="text" class="price" value="20" name="price"/></td>
+    <td><input type="text" class="subtot" value="0" name="subtot"/></td>
+    </tr>
+    <tr> <td><input type="text" class="pnm" value="Cherry" name="pnm" /></td>
+    <td><input type="text" class="qty" value="" name="qty"/></td>
+    <td><input type="text" class="price" value="50" name="price"/></td>
+    <td><input type="text" class="subtot" value="0" name="subtot"/></td>
+    </tr>
+    <tr> <td><input type="text" class="pnm" value="Kiwi" name="pnm" /></td>
+    <td><input type="text" class="qty" value="" name="qty"/></td>
+    <td><input type="text" class="price" value="50" name="price"/></td>
+    <td><input type="text" class="subtot" value="0" name="subtot"/></td>
+    </tr>
+    <tr> <td><input type="text" class="pnm" value="Peas dried &bioled" name="pnm" /></td>
+    <td><input type="text" class="qty" value="" name="qty"/></td>
+    <td><input type="text" class="price" value="120" name="price"/></td>
+    <td><input type="text" class="subtot" value="0" name="subtot"/></td>
+    </tr>
+    <tr> <td><input type="text" class="pnm" value="Sweetcorn" name="pnm" /></td>
+    <td><input type="text" class="qty" value="" name="qty"/></td>
+    <td><input type="text" class="price" value="130" name="price"/></td>
+    <td><input type="text" class="subtot" value="0" name="subtot"/></td>
+    </tr>
+    <tr> <td><input type="text" class="pnm" value="Cheese" name="pnm" /></td>
+    <td><input type="text" class="qty" value="" name="qty"/></td>
+    <td><input type="text" class="price" value="440" name="price"/></td>
+    <td><input type="text" class="subtot" value="0" name="subtot"/></td>
+    </tr>
+    <tr> <td><input type="text" class="pnm" value="Eggs" name="pnm" /></td>
+    <td><input type="text" class="qty" value="" name="qty"/></td>
+    <td><input type="text" class="price" value="150" name="price"/></td>
+    <td><input type="text" class="subtot" value="0" name="subtot"/></td>
+    </tr>
+    <tr> <td><input type="text" class="pnm" value="Ice cream" name="pnm" /></td>
+    <td><input type="text" class="qty" value="" name="qty"/></td>
+    <td><input type="text" class="price" value="18" name="price"/></td>
+    <td><input type="text" class="subtot" value="0" name="subtot"/></td>
+    </tr>
+    <tr> <td><input type="text" class="pnm" value="Plum" name="pnm" /></td>
+    <td><input type="text" class="qty" value="" name="qty"/></td>
+    <td><input type="text" class="price" value="39" name="price"/></td>
+    <td><input type="text" class="subtot" value="0" name="subtot"/></td>
+    </tr>
+    <tr> <td><input type="text" class="pnm" value="Pineapple" name="pnm" /></td>
+    <td><input type="text" class="qty" value="" name="qty"/></td>
+    <td><input type="text" class="price" value="40" name="price"/></td>
+    <td><input type="text" class="subtot" value="0" name="subtot"/></td>
+    </tr>
+    <tr> <td><input type="text" class="pnm" value="Onion(Fried)" name="pnm" /></td>
+    <td><input type="text" class="qty" value="" name="qty"/></td>
+    <td><input type="text" class="price" value="220" name="price"/></td>
+    <td><input type="text" class="subtot" value="0" name="subtot"/></td>
+    </tr>
+    <tr> <td><input type="text" class="pnm" value="Chocolate" name="pnm" /></td>
+    <td><input type="text" class="qty" value="" name="qty"/></td>
+    <td><input type="text" class="price" value="500" name="price"/></td>
+    <td><input type="text" class="subtot" value="0" name="subtot"/></td>
+    </tr>
+    <tr> <td><input type="text" class="pnm" value="Honey" name="pnm" /></td>
+    <td><input type="text" class="qty" value="" name="qty"/></td>
+    <td><input type="text" class="price" value="280" name="price"/></td>
+    <td><input type="text" class="subtot" value="0" name="subtot"/></td>
+    </tr>
+    <tr> <td><input type="text" class="pnm" value="Butter" name="pnm" /></td>
+    <td><input type="text" class="qty" value="" name="qty"/></td>
+    <td><input type="text" class="price" value="220" name="price"/></td>
+    <td><input type="text" class="subtot" value="0" name="subtot"/></td>
+    </tr>
+    <tr> <td><input type="text" class="pnm" value="Mushroom(fried)" name="pnm" /></td>
+    <td><input type="text" class="qty" value="" name="qty"/></td>
+    <td><input type="text" class="price" value="220" name="price"/></td>
+    <td><input type="text" class="subtot" value="0" name="subtot"/></td>
+    </tr>
+    <tr> <td><input type="text" class="pnm" value="Pepper" name="pnm" /></td>
+    <td><input type="text" class="qty" value="" name="qty"/></td>
+    <td><input type="text" class="price" value="16" name="price"/></td>
+    <td><input type="text" class="subtot" value="0" name="subtot"/></td>
+    </tr>
+    <tr> <td><input type="text" class="pnm" value="Tomato" name="pnm" /></td>
+    <td><input type="text" class="qty" value="" name="qty"/></td>
+    <td><input type="text" class="price" value="20" name="price"/></td>
+    <td><input type="text" class="subtot" value="0" name="subtot"/></td>
+    </tr>
+    <tr> <td><input type="text" class="pnm" value="Oil" name="pnm" /></td>
+    <td><input type="text" class="qty" value="" name="qty"/></td>
+    <td><input type="text" class="price" value="180" name="price"/></td>
+    <td><input type="text" class="subtot" value="0" name="subtot"/></td>
+    </tr>
+    
+    
+</tbody>
+                   </th></th></tr> </table>
+<tfoot>
+    <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+        
+         <form action="https://www.eufic.org/en/healthy-living/article/10-healthy-lifestyle-tips-for-adults">
+           <table width="20%" cellpadding="2" cellspacing="0" style="border:1px solid gray; margin-top: -10%">
+             
+               <tr bgcolor="white">  <td>  <p style="margin-left: 3%; margin-top: 1%; font-size: 28px; font-family: inherit;font-display: block">Nutrition Facts</p> <img src="img/logo.jpg" width="80px" height="60px" style="margin-left: 70%; margin-top: -20%"><hr style="width: 100%"><p style="font-family: fantasy; font-size: 35px;margin-left: 3%; margin-top: 6%">Calories</p><hr style="width: 100%">
+               <input type="text" style="margin-left: 58%; margin-top: -29%; font-size: 30px; background-color: white;"  value="" id="new" size="3.5"/>
+                   <p style="margin-left: 1%">*It is generally accepted,that a healthy daily caloric intake is 1,800 calories for women and 2,200 calories for men.</p>
+                  
+                   </td>
+                  
+                   <p style="margin-left: 50%;font-family: fantasy;font-size: 30px;color: darkslategray;margin-top: 3%">Recipe Anaylzer Results</p><p style="margin-left: 50%;font-family: serif;font-size: 20px; color: solid black;margin-top: -1%">A Single serving of this recipe has 
+               <input type="text" style="margin-left: 1%;font-size: 20px"  value="" id="grdtot" size="4"/> calories</p>
+                    
+                   <button style="width: 15%; font-size: 20px; box-sizing: 10%; color: black; background-color: antiquewhite; border: none; display: inline-block;text-decoration: none;padding: 15px 32px; margin-left: 50%" ><i class="fa fa-refresh fa-spin" style="font-size: 24px" formaction="https://www.eufic.org/en/healthy-living/article/10-healthy-lifestyle-tips-for-adults" id="butt"></i>&nbsp;&nbsp;&nbsp;&nbsp;Health tips</button>
+ 
+                   
+                         
+                   
+            
+               </tr>
+            </table>
+        </form>
+        
+    </tr>
+        </tfoot>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script>
+            var $tblrows = $("#tblProducts tbody tr");
+$tblrows.each(function (index) {
+    var $tblrow = $(this);
+ 
+   $tblrow.find('.qty').on('change', function () {
+
+var qty = $tblrow.find("[name=qty]").val();
+var price = $tblrow.find("[name=price]").val();
+var subTotal = parseInt(qty,10) * parseFloat(price);
+ 
+if (!isNaN(subTotal)) {
+ 
+    $tblrow.find('.subtot').val(subTotal.toFixed(2));
+    var grandTotal = 0;
+ 
+    $(".subtot").each(function () {
+        var stval = parseFloat($(this).val());
+        grandTotal += isNaN(stval) ? 0 : stval;
+    });
+ 
+    $("#grdtot").val(grandTotal.toFixed(0));
+    $("#new").val(grandTotal.toFixed(0));
+    
+}
+   });
+
+});
+        </script>
+        
+    
+     
+        
+               
+           
+
+               
+    </body></html>
